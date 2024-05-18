@@ -1,0 +1,25 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: #f2f2f2;
+  }
+  
+  .contenedor_titulo_perfil {
+    width: 90%;
+    background-color: #b2102f;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .titulo_perfil {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .descripcion_perfil {
+    font-size: 1.2rem;
+  }
