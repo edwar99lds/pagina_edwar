@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import logo_edwar from "../../resource/logo_edwar2.png";
 import edwar from "../../resource/perfil_edwar.jpg";
 import Hoja_de_Vida_Edwar_Marin from "../../resource/Hoja_de_Vida_Edwar_Marin.png";
+import Hoja_de_Vida_Edwar_Marin_certificados from "../../resource/Hoja_de_Vida_Edwar_Marin_certificados.pdf";
 
 import AspectRatio from "@mui/joy/AspectRatio";
 import Box2 from "@mui/joy/Box";
@@ -238,7 +239,8 @@ export default function Perfil() {
                 level="title-sm"
                 underline="none"
                 variant="solid"
-                href={"hoja de vida"}
+                href={Hoja_de_Vida_Edwar_Marin_certificados}
+                target='_blank'
               >
                 Visitar
               </Link>
